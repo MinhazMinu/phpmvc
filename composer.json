@@ -1,0 +1,21 @@
+{
+  "name": "minhaz/phpmvc",
+  "description": "A simple lightweight php mvc framwork",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Minhaz\\Phpmvc\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Minhaz",
+      "email": "minhazul.taher@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "pecee/simple-router": "dev-master"
+  }
+}
