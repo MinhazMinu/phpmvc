@@ -9,6 +9,6 @@ class PortfoliosController extends Controller
 {
   public function index()
   {
-    return 'port ssad';
+    return view('portfolios/portfolios');
   }
 }
