@@ -11,4 +11,4 @@ SimpleRouter::get('phpmvc/', function () {
 
 
 SimpleRouter::get('phpmvc/portfolios', [PortfoliosController::class, 'index']);
-SimpleRouter::get('phpmvc/welcome', [WelcomeController::class, 'index']);
+SimpleRouter::get('phpmvc/welcome', [WelcomeController::class, 'hello']);

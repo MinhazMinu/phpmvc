@@ -7,8 +7,8 @@ use App\Base\Controller;
 
 class WelcomeController extends Controller
 {
-    public function index()
+    public function hello()
     {
-        return 'welcome';
+        require_once VIEWS . '/' . 'index.php';
     }
 }
