@@ -3,8 +3,12 @@
 
 
 // Autoload Vendor file
-
 require_once __DIR__ . '/vendor/autoload.php';
+
+// define constant
+define('ROOT', __DIR__);
+define('VIEWS', __DIR__ . '/' . 'views');
+
 
 /* Load external routes file */
 
