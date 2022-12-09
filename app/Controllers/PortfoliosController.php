@@ -2,9 +2,10 @@
 
 namespace App\Controllers;
 
-use App\Base\Controllers\Controllers;
+use App\Base\Controller;
 
-class PortfoliosController extends Controllers
+
+class PortfoliosController extends Controller
 {
   public function index()
   {
