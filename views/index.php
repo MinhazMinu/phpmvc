@@ -1,1 +1,1 @@
-<h2>This is index view</h2>
+<h2>This is index view with view functin in bas class</h2>
