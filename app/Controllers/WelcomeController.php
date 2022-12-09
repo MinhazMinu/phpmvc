@@ -9,6 +9,6 @@ class WelcomeController extends Controller
 {
     public function hello()
     {
-        $this->view('index');
+        return view('index');
     }
 }
