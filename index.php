@@ -1,6 +1,6 @@
 <?php
 
-use Pecee\SimpleRouter\SimpleRouter;
+
 
 // Autoload Vendor file
 
@@ -10,6 +10,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 require_once 'routes/route.php';
 
+use Pecee\SimpleRouter\SimpleRouter;
 
 
 SimpleRouter::setDefaultNamespace('\App\Controllers');
