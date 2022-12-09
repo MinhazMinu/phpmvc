@@ -9,6 +9,6 @@ class WelcomeController extends Controller
 {
     public function hello()
     {
-        require_once VIEWS . '/' . 'index.php';
+        $this->view('index');
     }
 }
